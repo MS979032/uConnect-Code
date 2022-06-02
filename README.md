@@ -1,18 +1,13 @@
 # **uConnect**
 The aim of our program is to create a website to help combat prejudice by connecting individuals with potential friends and employers based on personality compatibility rather than surface level factors. To do this, character personality and career personality assessments will be conducted to assign individuals a specific archetype in each category. After an archetype is assigned, individuals will be able to explore all of the archetypes, common obstacles each archetype may face & suggestions on how to overcome those obstacles, as well as have their data saved & displayed in a results database for potential friends and employers to find and explore.
 
-### Table of Contents
+### Using the Website
 | Page     | Description |
 | ----------- | ----------- |
-| Home      | Title       |
-| Assessments   | Text        |
-| Archetypes   | Text        |
-| Database   | Text        |
-| Resources   | Text        |
-| Contact   | Text        |
+| Home      | This is the first page you will see when you open the website. It has the website name, a quote, a description of why this website is useful, and a disclaimer. It also has an assessment button that will take you to the career quiz. There will also be a tab menu on top so that you can view different tabs. |
+| Assessments   | You can access the assessments page in 2 two ways: clicking the button on the home page that reads "TAKE THE CAREER ASSESSMENT" and by clciking "Assessments" on the tab menu which will take you to a page that has the same button reading "TAKE THE CAREER ASSESSMENT." There are 16 multiple choice questions in the assessment that must all be answered in order to get accurate results. Each part in the assessment has 4 questions which will each give you a result based on your personality. After answering each set of questions, you must click the button that says "submit" to get your result and then "NEXT" to get the next set of questions. You can also click "Reset" if you want to remove your choices and choose again. After finishing all 16 questions, you be taken... |
+| Archetypes   | You can access the archetypes page by clciking "Archetypes" on the tab menu or after taking the quiz when you click... The archetypes page will contain of the possible results (personality types) that you could get after taking the quiz. |
+| Contact   | The contact page will conatin the contact info as well as a feedback form.       |
 
-### How to use this website
-
-
-### Credits
-
+### How the quiz works
+As soon as you start the quiz, you will find 4 questions that must all be answered for accurate results. After answering these questions you must click the button that says "Next" and 4 more questions will appear. You will repeat this 2 more times until you finish all 16 questions. You must make sure that you have answered all questions or else the results will be inaccurate. After finishing the quiz, you will be assigned an archetype, common obstacles each archetype may face, and suggestions on how to overcome those obstacles.
