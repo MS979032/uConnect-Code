@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <title>UCONNECT</title>
+  <link href="style.css" rel="stylesheet" type = "text/css"></link>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+	 rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f3974554c1.js" crossorigin="anonymous">
+  </script>
+	<script src="script.js"></script>
+ 
+</head>
+
+<header>
+  <p class = "title">C S M</p>
+</header> 
+  
+ <p class="text">Please make sure to answer all questions for accurate results</p>
+  
+<form name="personalityForm"> 
+<div class="wrapper container">  
+
+
+<!-- PART 1 -->
+  <div class="quiz-box quiz-1">  
+    <h2 id="quizQuestion1" class="quiz-question">1. You would rather spend your free time with someone that staying alone</h2>
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q1" onClick="saver(1,0)"> Most likely</label>
+      <label><input type="radio" name="q1" onClick="saver(1,1)"> Neutral </label>
+      <label><input type="radio" name="q1" onClick="saver(1,2)"> Least likely</label>
+
+    </span>  
+  </div>  
+
+  
+  <div class="quiz-box quiz-2">  
+    <h2 id="quizQuestion2" class="quiz-question">2. You enjoy socializing with people you don't know</h2> 
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q2" onClick="saver(2,0)"> Most likely</label>
+      <label><input type="radio" name="q2" onClick="saver(2,1)"> Neutral </label>
+      <label><input type="radio" name="q2" onClick="saver(2,2)"> Least likely</label>
+
+    </span>  
+  </div>  
+
+  
+  <div class="quiz-box quiz-3">   
+    <h2 id="quizQuestion3" class="quiz-question">3. The more the people, the more energy you have</h2> 
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q3" onClick="saver(3,0)"> Most likely</label> 
+      <label><input type="radio" name="q3" onClick="saver(3,1)"> Neutral </label> 
+      <label><input type="radio" name="q3" onClick="saver(3,2)"> Least likely</label> 
+
+    </span>  
+  </div> 
+
+
+  <div class="quiz-box quiz-4">    
+    <h2 id="quizQuestion4" class="quiz-question">4. Participating in a lively discussion</h2> 
+    <span class="quiz-answer"> 
+      <label><input type="radio" name="q4" onClick="saver(4,0)"> Most likely</label> 
+      <label><input type="radio" name="q4" onClick="saver(4,1)"> Neutral </label> 
+      <label><input type="radio" name="q4" onClick="saver(4,2)"> Least likely</label> 
+
+    </span>  
+  </div>
+
+  
+
+  <hr>  
+  
+  <div class="get-result">   
+    <input class="btn btn-primary" type="button" name="result" value="Submit" onClick="total()"> 
+    <input class="btn btn-default" type="reset" value="Reset"> 
+  </div> 
+  
+  <hr>   
+   
+  <div class="result-box">   
+    <h3>Your personality type is: </h3>
+    <div id="result"></div> 
+  </div>
+
+<a onClick="nextPage()" id="btn"><span  class="nextButton" >NEXT<i class="fas fa-arrow-right"></i></span></a>
+  
+  
+
+  
+</div>  
+</form> 
+</body>

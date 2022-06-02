@@ -1,0 +1,333 @@
+html {
+  font-family: 'Montserrat';
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+body {
+  
+    background-color: rgb(0,0,0);
+
+}
+
+.title {
+
+    font-family: 'Montserrat';
+    color: rgb(173,216,230);
+    font-size: 20px;
+    padding: 20px 70px; 
+    font-weight: 800;
+  
+}
+
+div.menuBar {
+  
+    background: rgb(173,216,230);
+    position: absolute;
+    width: 98%;
+    top: 70px;
+}
+
+.menuBar a {
+
+    color: rgb(0,0,0);
+    text-align: left;
+    padding: 5px 45px;
+    font-size: 20px;
+    float: left;
+    transition-duration: 0.5s;
+    text-decoration: none;
+  
+}
+
+.menuBar a:hover{
+  
+    background-color: rgb(25,40,65);
+    color: rgb(255,255,255);
+    text-decoration: none;
+  
+}
+
+.menuBarRight {
+    padding-top: 77px;
+    z-index: 1;
+}
+
+.menuBarRight a {
+
+    color: rgb(0,0,0);
+    text-align: left;
+    padding: 5px 45px;
+    font-size: 20px;
+    float: right;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    background: rgb(173,216,230);
+  
+}
+
+.menuBarRight a:hover{
+  
+    background-color: rgb(25,40,65);
+    color: rgb(255,255,255);
+    text-decoration: none;
+  
+}
+
+.titleOne {
+    font-family: Montserrat;
+    margin-left: 185px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 70px;
+}
+
+.hPText {
+    font-family: Montserrat;
+    margin-left: 670px;
+    margin-right: 185px;
+    color: rgb(255,255,255);
+    font-weight: 550;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.titleTwo {
+    font-family: Montserrat;
+    margin-left: 185px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 70px;
+    padding: 5px 220px;
+}
+
+.titleThree {
+    font-family: Montserrat;
+    margin-left: 185px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 70px;
+    padding: 5px 220px;
+}
+
+.titleFour {
+    font-family: Montserrat;
+    margin-left: 185px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 70px;
+    padding: 5px 235px;
+}
+
+.titleFive {
+    font-family: Montserrat;
+    margin-left: 185px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 70px;
+    padding: 5px 270px;
+}
+
+.titleSix {
+    font-family: Montserrat;
+    margin-left: 185px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 70px;
+    padding: 5px 270px;
+  
+}
+.referenceText {
+    font-family: Montserrat;
+    margin-left:100px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px 270px; 
+}
+
+.WorkAssessmentButton {
+    color: rgb(0,0,0);
+    padding: 25px 45px;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    background: rgb(255,219,88);
+    text-align: left;
+    display: inline-block;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.WorkAssessmentButton:hover {
+  
+    background-color: rgb(232,163,23);
+    color: rgb(255,255,255);
+    text-decoration:none;
+
+}
+
+.WorkAssessmentButton:hover > i {
+	transform: translateX(100px)
+}
+
+.WorkAssessmentButton i {
+	transition: transform 200ms ease-in-out;
+	color: rgb(0,0,0);
+	margin-left: 100px;
+
+}
+
+.contactInfo {
+    font-family: Montserrat;
+    margin-left: 70px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 25px;
+    
+}
+
+.bottomBar {
+    
+    font-family: Montserrat;
+    color: rgb(0,0,0);
+    text-align: center;
+    font-size: 20px;
+    background: rgb(173,216,230);
+    padding: 5px 45px;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    
+    
+}
+
+.bottomBarLink {
+
+    font-family: Montserrat;
+    color: rgb(0,0,0);
+    text-align: center;
+    font-size: 20px;
+    background: rgb(173,216,230);
+    transition-duration: 0.5s;
+    text-decoration: none;
+    
+}
+
+.bottomBarLink:hover {
+
+    opacity: 500;
+    color: rgb(51, 10, 255);
+    text-decoration: none;
+    
+}
+
+.description, h1 {
+    color: rgb(255,255,255);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Montserrat;
+}
+
+.quiz-question {
+    color: rgb(255,255,255);
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.quiz-answer {
+    color: rgb(173,216,230);
+    size: 200px;
+}
+
+.result-box {
+    color: rgb(255,255,255)
+}
+
+.text {
+    color: rgb(255,255,255);
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.nextButton {
+    color: rgb(0,0,0);
+    padding: 25px 45px;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    background: rgb(255,219,88);
+    text-align: left;
+    display: inline-block;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.nextButton:hover {
+  
+    background-color: rgb(232,163,23);
+    color: rgb(255,255,255);
+    text-decoration:none;
+
+}
+
+.nextButton:hover > i {
+	transform: translateX(100px)
+}
+
+.nextButton i {
+	transition: transform 200ms ease-in-out;
+	color: rgb(0,0,0);
+	margin-left: 100px;
+
+}
+
+.nextButtonTwo {
+    color: rgb(0,0,0);
+    padding: 25px 45px;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    background: rgb(255,219,88);
+    text-align: left;
+    display: inline-block;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.nextButtonTwo:hover {
+  
+    background-color: rgb(232,163,23);
+    color: rgb(255,255,255);
+    text-decoration:none;
+
+}
+
+.nextButtonTwo:hover > i {
+	transform: translateX(100px)
+}
+
+/* .nextButtonTwo i {
+	transition: transform 200ms ease-in-out;
+	color: rgb(0,0,0);
+	margin-left: 100px; */
+
+}
+
+.resultsTitle {
+    font-family: Montserrat;
+    margin-left: 185px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 70px;
+}
